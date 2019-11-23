@@ -1,5 +1,5 @@
 package newJavaProjet;
-
+//Saliou
 public class Troupes {
 
 	private int productionCost;
