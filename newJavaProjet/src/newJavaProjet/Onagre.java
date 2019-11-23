@@ -2,9 +2,8 @@ package newJavaProjet;
 
 public class Onagre extends Troupes {
 
-	public Onagre(int productionCost, int productionTime, int speed, int health, int damage) {
-		super(productionCost, productionTime, speed, health, damage);
-		// TODO Auto-generated constructor stub
-	}
+	public Onagre() {
+		 super(Constante.COUTDEPRODUCTION_ONAGRE, Constante.TEMPSDEPRODUCTION_ONAGRE, Constante.VIDECASEPARPRODUCTION_ONAGRE, Constante.POINTSDEVIE_ONAGRE, Constante.DEGATS_ONAGRE);
 
+	 }
 }

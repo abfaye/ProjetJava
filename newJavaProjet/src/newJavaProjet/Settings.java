@@ -1,24 +1,34 @@
-package newJavaProjet;
+package com.soldats_Game;
 
-public class Settings {
+public class Constante {
+       
+	/**
+	 * Constante pour la classe Piquier
+	 */
 
-	public static final double SCENE_WIDTH = 400;
-    public static final double SCENE_HEIGHT = 750;
-	public static final double STATUS_BAR_HEIGHT = 50;
-
-
-    public static final double PLAYER_SPEED = 4.0;
-    public static final int    PLAYER_HEALTH = 3;
-    public static final double PLAYER_DAMAGE = 1;
-
-    public static final double MISSILE_SPEED = 4.0;
-    public static final int    MISSILE_HEALTH = 0;
-    public static final double MISSILE_DAMAGE = 1.0;
-
-    public static final int ENEMY_SPAWN_RANDOMNESS = 100;
-    
-    public static final int FIRE_FREQUENCY_LOW = 1000 * 1000 * 1000; // 1 second in nanoseconds
-    public static final int FIRE_FREQUENCY_MEDIUM = 500 * 1000 * 1000; // 0.5 second in nanoseconds
-    public static final int FIRE_FREQUENCY_HIGH = 100 * 1000 * 1000; // 0.1 second in nanoseconds
+		public static final int COUTDEPRODUCTION_PIQUIER =100;
+	    public static final int TEMPSDEPRODUCTION_PIQUIER = 5;
+		public static  final int  VIDECASEPARPRODUCTION_PIQUIER = 2;
+	    public static  final int POINTSDEVIE_PIQUIER = 1;
+	    public static final int    DEGATS_PIQUIER = 1;
+	    /**
+	     * constante pour la classe Chevalier
+	     */
+	    public static final int COUTDEPRODUCTION_CHEVALIER =500;
+	    public static final int TEMPSDEPRODUCTION_CHEVALIER = 20;
+		public static  final int VIDECASEPARPRODUCTION_CHEVALIER = 6;
+	    public static  final int POINTSDEVIE_CHEVALIER = 3;
+	    public static final int    DEGATS_CHEVALIER = 5;
+	   
+	    /**
+	     * Les constante pour la classe ONAGRE
+	     */
+	    public static final int COUTDEPRODUCTION_ONAGRE =1000;
+	    public static final int TEMPSDEPRODUCTION_ONAGRE = 50;
+		public static  final int VIDECASEPARPRODUCTION_ONAGRE = 1;
+	    public static  final int POINTSDEVIE_ONAGRE = 5;
+	    public static final int    DEGATS_ONAGRE = 10;
+	   
+	   
 
 }
