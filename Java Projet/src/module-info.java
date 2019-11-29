@@ -1,4 +1,4 @@
 module com.saliou.JavaProjet {
-	requires javafx.graphics;
+	requires transitive javafx.graphics;
 	exports com.saliou.JavaProjet;
 }
