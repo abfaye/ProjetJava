@@ -20,6 +20,7 @@ public class MainApp extends Application{
 
 	public void start(Stage primaryStage) throws Exception {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		primaryStage.setTitle("java Projet");
 		//DUration de deplacement
 		/**
@@ -61,6 +62,12 @@ public class MainApp extends Application{
 		/*
 		 * Creation des premier soldat
 		 */
+=======
+		primaryStage.setTitle("Java Projet");
+		primaryStage.setWidth(1000);
+		primaryStage.setHeight(700);
+		primaryStage.show();
+>>>>>>> 69c4e1fa9ca51e99b5c17ed50b3941620c5a7cfc
 		
 		Circle soldat1 = new Circle();
 		Circle soldat2 = new Circle();
@@ -134,6 +141,10 @@ public class MainApp extends Application{
 		root.getChildren().add(cercle);
 		primaryStage.setResizable(true);
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 69c4e1fa9ca51e99b5c17ed50b3941620c5a7cfc
 }
 
 
