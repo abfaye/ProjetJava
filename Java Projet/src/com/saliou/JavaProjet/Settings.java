@@ -28,7 +28,12 @@ public class Settings {
 		public static  final int VIDECASEPARPRODUCTION_ONAGRE = 1;
 	    public static  final int POINTSDEVIE_ONAGRE = 5;
 	    public static final int    DEGATS_ONAGRE = 10;
+	    
+	    /**
+	     * Scene constante
+	     */
 	   
-	   
-
+	    public static final int SCENE_WIDTH = 1000;
+	    public static final int SCENE_HEIGHT =700;
+	    public static final int STATUS_BAR_HEIGHT =100;
 }
