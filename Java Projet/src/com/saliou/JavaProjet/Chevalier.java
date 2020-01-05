@@ -1,12 +1,16 @@
 package com.saliou.JavaProjet;
 
+import javafx.scene.image.Image;
+import javafx.scene.layout.Pane;
+
 public class Chevalier extends Troupes{
 
-	public Chevalier() {
-		 super(Settings.COUTDEPRODUCTION_CHEVALIER, Settings.TEMPSDEPRODUCTION_CHEVALIER, 
-				 Settings.VIDECASEPARPRODUCTION_CHEVALIER, Settings.POINTSDEVIE_CHEVALIER,
-				 Settings.DEGATS_CHEVALIER);
-
+	public Chevalier(Pane layer, Image image, double x, double y, int productionCost, int productionTime, int speed,
+			int health, int damage, Input input) {
+		super(layer, image, x, y, productionCost, productionTime, speed, health, damage, input);
+		// TODO Auto-generated constructor stub
 	}
+
+	
 
 }

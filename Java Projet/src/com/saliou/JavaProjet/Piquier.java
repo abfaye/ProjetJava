@@ -1,9 +1,16 @@
 package com.saliou.JavaProjet;
 
+import javafx.scene.image.Image;
+import javafx.scene.layout.Pane;
+
 public class Piquier extends Troupes{
 
-	public Piquier() {
-		 super(Settings.COUTDEPRODUCTION_PIQUIER, Settings.TEMPSDEPRODUCTION_PIQUIER, Settings.VIDECASEPARPRODUCTION_PIQUIER, Settings.POINTSDEVIE_PIQUIER, Settings.DEGATS_PIQUIER);
-	 }
+	public Piquier(Pane layer, Image image, double x, double y, int productionCost, int productionTime, int speed,
+			int health, int damage, Input input) {
+		super(layer, image, x, y, productionCost, productionTime, speed, health, damage, input);
+		// TODO Auto-generated constructor stub
+	}
+
+	
 
 }

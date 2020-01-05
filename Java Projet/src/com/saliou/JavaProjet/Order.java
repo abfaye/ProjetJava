@@ -2,7 +2,7 @@ package com.saliou.JavaProjet;
 
 public class Order {
 	
-	private Chateau cible;
+	private Chateaux cible;
 	private int nbTroupes;
 	
 

@@ -1,9 +1,15 @@
 package com.saliou.JavaProjet;
 
+import javafx.scene.image.Image;
+import javafx.scene.layout.Pane;
+
 public class Onagre extends Troupes {
 
-	public Onagre() {
-		 super(Settings.COUTDEPRODUCTION_ONAGRE, Settings.TEMPSDEPRODUCTION_ONAGRE, Settings.VIDECASEPARPRODUCTION_ONAGRE, Settings.POINTSDEVIE_ONAGRE, Settings.DEGATS_ONAGRE);
+	public Onagre(Pane layer, Image image, double x, double y, int productionCost, int productionTime, int speed,
+			int health, int damage, Input input) {
+		super(layer, image, x, y, productionCost, productionTime, speed, health, damage, input);
+		// TODO Auto-generated constructor stub
+	}
 
-	 }
+	
 }

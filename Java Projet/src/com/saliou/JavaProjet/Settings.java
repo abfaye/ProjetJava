@@ -36,4 +36,7 @@ public class Settings {
 	    public static final int SCENE_WIDTH = 1000;
 	    public static final int SCENE_HEIGHT =700;
 	    public static final int STATUS_BAR_HEIGHT =100;
+		public static final double FIRE_FREQUENCY_MEDIUM = 500*1000*1000;
+		public static final double FIRE_FREQUENCY_LOW = 0;
+		public static final double FIRE_FREQUENCY_HIGH = 0;
 }
